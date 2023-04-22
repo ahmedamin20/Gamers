@@ -1,0 +1,66 @@
+[
+    {
+     "img":"./images/Game1.png",
+     "name":"Grand theft auto v",
+     "rate":"80%",
+     "price":"20$",
+     "type":"pc",
+     "id":1
+    },
+    {
+     "img":"./images/game2.jpg",
+     "name":"Assassin's CREED",
+     "rate":"75%",
+     "price":"60$",
+     "type":"pc",
+     "id":2
+    },
+    {
+     "img":"./images/game3.jpg",
+     "name":"Call of Duty",
+     "rate":"45%",
+     "price":"15$",
+     "type":"mobile",
+     "id":3
+    },
+    {
+     "img":"./images/game4.webp",
+     "name":"Spiderman",
+     "rate":"70%",
+     "price":"12$",
+     "type":"mobile",
+     "id":4
+    },
+    {
+     "img":"./images/game8.jpg",
+     "name":"NFS MW 2012",
+     "rate":"30%",
+     "price":"25$",
+     "type":"mobile",
+     "id":5
+    },
+    {
+     "img":"./images/game8.jpg",
+     "name":"NFS MW 2012",
+     "rate":"30%",
+     "price":"25$",
+     "type":"mobile",
+     "id":5
+    },
+    {
+     "img":"./images/game8.jpg",
+     "name":"NFS MW 2012",
+     "rate":"30%",
+     "price":"25$",
+     "type":"mobile",
+     "id":5
+    },
+    {
+     "img":"./images/game8.jpg",
+     "name":"NFS MW 2012",
+     "rate":"30%",
+     "price":"25$",
+     "type":"mobile",
+     "id":5
+    }
+]

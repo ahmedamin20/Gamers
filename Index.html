@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaming</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!----------------  Home  &  Header  ---------------->
+    <header class="head">
+      <nav>
+        <div class="content">
+          <a class="logo">Gammers</a>
+          <a class="logo">Gammers</a>
+        </div>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#">Tournaments</a></li>
+          <li><a href="./login.php">Login</a></li>
+        </ul>
+        <div class="action">
+          <div class="searchBox">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <input type="text" placeholder="Search Games" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="banner" id="home">
+        <div class="bg">
+          <div class="content">
+            <h2>
+              A New Home for<br />
+              Game Lovers
+            </h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Aspernatur voluptatem.
+            </p>
+            <a href="./login.php" class="spiBtn" target="_blank">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Join Now</a
+            >
+          </div>
+          <img src="./images/first.png" />
+        </div>
+      </div>
+      <!---------- About --------->
+
+      <section class="about animeX" id="about">
+        <div class="container">
+          <div class="imgContainer">
+            <img src="./images/joystike.png" class="img" /> I
+          </div>
+          <div class="contentBx">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              laboriosam quis, reiciendis quisquam sit eius officia, tempore
+              corrupti ea cupiditate eum. Consequuntur eveniet aliquid odio
+              ducimus culpa sed nulla amet? Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Odio deserunt unde fugiat reiciendis
+              laborum, quidem mollitia aliquam fuga recusandae aliquid quo
+              voluptatem repellat ab. Est doloribus accusantium eaque possimus
+              vero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem, officiis. Cupiditate non ipsam blanditiis.
+              Temporibus nesciunt non tempore sapiente mollitia labore
+              voluptatem ipsam provident? Aspernatur at soluta minus adipisci
+              ipsum.
+            </p>
+            <a href="#" class="spiBtn">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Read more</a
+            >
+          </div>
+        </div>
+      </section>
+      <!------------- Game Section ------------>
+      <div class="games animeX" id="games">
+        <div class="txt-info">
+          <h2>Popular Games</h2>
+          <ul>
+            <li class="list active" data-fitler="All">All</li>
+            <li class="list" data-fitler="pc">Pc Games</li>
+            <li class="list" data-fitler="mobile">Mobile Games</li>
+          </ul>
+        </div>
+        <div class="cardBx animeX">
+          <div class="card" data-item="pc">
+            <img src="./images/Game1.png" alt="" />
+            <div class="content">
+              <h4>grand theft auto v</h4>
+              <div class="progressLine">
+                <span></span>
+              </div>
+
+              <div class="info">
+                <p>
+                  Pricing <br />
+                  <span>10$</span>
+                </p>
+                <a href="#">Play</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="pc">
+            <img src="./images/game2.jpg" alt="" />
+            <div class="content">
+              <h4>AssAssin's CREED</h4>
+              <div class="progressLine">
+                <span></span>
+              </div>
+
+              <div class="info">
+                <p>
+                  Pricing <br />
+                  <span>10$</span>
+                </p>
+                <a href="#">Play</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="mobile">
+            <img src="./images/game3.jpg" alt="" />
+            <div class="content">
+              <h4>Call of Duty</h4>
+              <div class="progressLine">
+                <span></span>
+              </div>
+
+              <div class="info">
+                <p>
+                  Pricing <br />
+                  <span>10$</span>
+                </p>
+                <a href="#">Play</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="mobile">
+            <img src="./images/game4.webp" alt="" />
+            <div class="content">
+              <h4>Spiderman</h4>
+              <div class="progressLine">
+                <span></span>
+              </div>
+
+              <div class="info">
+                <p>
+                  Pricing <br />
+                  <span>10$</span>
+                </p>
+                <a href="#">Play</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="mobile">
+            <img src="./images/game8.jpg" alt="" />
+            <div class="content">
+              <h4>NFS MW 2012</h4>
+              <div class="progressLine">
+                <span></span>
+              </div>
+
+              <div class="info">
+                <p>
+                  Pricing <br />
+                  <span>10$</span>
+                </p>
+                <a href="#">Play</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="pc">
+            <img src="./images/game6.webp" alt="" />
+            <div class="content">
+              <h4>PES 22</h4>
+              <div class="progressLine">
+                <span></span>
+              </div>
+
+              <div class="info">
+                <p>
+                  Pricing <br />
+                  <span>10$</span>
+                </p>
+                <a href="#">Play</a>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-item="pc">
+            <img src="./images/game7.webp" alt="" />
+            <div class="content">
+              <h4>FROZA HORIZON 5</h4>
+              <div class="progressLine">
+                <span></span>
+              </div>
+              <div class="info">
+                <p>
+                  Pricing <br />
+                  <span>10$</span>
+                </p>
+                <a href="#">Play</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="info">
+        <a href="#" class="logo">Gammers</a>
+        <p>© 2022 Front-end Developer : Ahmed Amin</p>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
